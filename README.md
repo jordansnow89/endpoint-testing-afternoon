@@ -388,7 +388,7 @@ In this step, we will create a Postman test for creating a user that returns an 
 
 * Click on the `POST - Create user ( error )` request.
 * Click on the `Send` button to see the returned data.
-* Create a test to verify the returned status code is `200`.
+* Create a test to verify the returned status code is `400`.
 * Create a test to verify the returned message is `"All needed user info was not sent in the body of request."`.
 
 ### Solution
